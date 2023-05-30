@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openCity(evt, cityName) {//Java script utilized form my previous assessment same function but changed due to css
     var i, x, tablinks;
     x = document.getElementsByClassName("city");
     for (i = 0; i < x.length; i++) {

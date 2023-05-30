@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="website.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/5ad384dc18.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="website.css"><!--my css file-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--CSS file from font awsome-->
+    <script src="https://kit.fontawesome.com/5ad384dc18.js" crossorigin="anonymous"></script><!--JS filr from font awsome-->
 </head>
 <body>
-    <header class="hedder">
-        <div class="topnav">
-                <a href="">My Socials</a>
-                <a href="">Contacts</a>
-                <a href="">My works</a>
-                <a href="">Servicer</a>
-                <a href="">About me</a>
-                <a href="">Home</a>
+    <header class="hedder"><!--Hedder in fixed position-->
+        <div class="topnav"><!--Nav bar in header so it is always on top-->
+                <a href="#Socials">My Socials</a><!--Nav bar for easy navigation-->
+                <a href="#CONTACTS">Contacts</a>
+                <a href="#WORK">My works</a>
+                <a href="#SERVICES">Services</a>
+                <a href="#TECNICAL">Tcehnical skills</a>
+                <a href="#ME">About me</a>
+                <a href="#HOME">Home</a>
                 <div class="topnav-left">
                    <a href="">portfolio</a>
                 </div>          
         </div>
     </header>
     <main>
-        <div class="home">
+        <div class="home" id="HOME"><!--Home class to create cool design-->
           <div class="square github">
             <span></span>
             <span></span>
             <span></span>
-            <div class="content">
-              <h1>Hi,
+            <div class="content"><!--Basic intoduction-->
+              <h1 >Hi,
                 <br>
                 I'am Shaharyar</span>
                 <br>
@@ -40,33 +41,33 @@
 
       </div>
         <div class="about">
-            <div class="textaboutme">
-                <h3>About me</h3>
+            <div class="textaboutme"><!--about me text-->
+                <h1 id="ME">About me</h1>
                 <p>Hello, I'm Shaharyar Ahmed.I am a multitalented Bath Spa University student who is almost 20 years old.
                     I have a wide range of academic interests, and I have work experience in business management and communication. My experience ranges from one to four years.Most recently, in the 
  
                     University Numerous programming languages, including Python, HTML, CSS, and JavaScript, have been introduced to me and I have mastered them.
                     I have also gained knowledge of a variety of other skills, including photography, videography, game development, and the creation of real life interactive games.
                 </p>
-                <img src="1.jpg" class="center">
+                <img src="1.jpg" class="center"><!--Profile pic-->
                   <div class="wrapper">
                     
-                    <div class="tabs">
+                    <div class="tabs"><!--Internal tabs created using Javescript-->
                       <div class="tab">
                         <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
-                        <label for="tab-1" class="tab-label">Skills</label>
+                        <label for="tab-1" class="tab-label"><i class="fa-solid fa-gear"></i>Skills</label><!--Font awsome icon-->
                         <div class="tab-content">I am multi-talented. I've held CSR and TSR positions in the telemarketing industry. I also have business and management skills, particularly with Excel sheet management.
                           In high school assemblies, I also created power point presentations and use Google Slides.As of my current experience at the University of Bath Spa, I also have experience in photography and videography.
                         </div>
                       </div>
                       <div class="tab">
                         <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
-                        <label for="tab-2" class="tab-label">Experience</label>
+                        <label for="tab-2" class="tab-label"><i class="fa-solid fa-briefcase"></i>Experience</label>
                         <div class="tab-content">Since I worked at Ethasat as a CSR and TSR from 2020 to 2022, I have experience in the telecommunications industry. I also have excellent communication abilities.I have been an excel sheet manager for Choithrams since 2022.I have excellent copywriting skills because I have also written journals and news pieces for the college newspaper.</div>
                       </div>
                       <div class="tab">
                         <input type="radio" name="css-tabs" id="tab-3" class="tab-switch">
-                        <label for="tab-3" class="tab-label">Education</label>
+                        <label for="tab-3" class="tab-label"><i class="fa-solid fa-book-open"></i>Education</label>
                         <div class="tab-content">I have studied at a variety of institutions, including the al-Majed International School, where I received my primary education.I received my secondary education while attending Gems Welenton Academy.I traveled to the Pakistan Education Academy for my high school and college education.
                           and I am pursuing my undergraduate degree or bachelor's degree at Bath Spa University.</div>
                       </div>
@@ -76,11 +77,11 @@
 
             </div>
         </div>
-        <div class="contact">
-            <h4>Technical Skills</h4>   
+        <div class="contact"><!--Skill bars created using CSS-->
+            <h1 id="TECNICAL">Technical Skills</h1>   
             <p>Photography</p>
             <div class="w3-grey">
-                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+                <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div><!--Internal styling for better understaiding for me-->
             </div>
             <p>Web Design</p>
             <div class="w3-grey">
@@ -103,53 +104,53 @@
                 <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
             </div>
         </div>
-            <h3>my services</h3>
+            <h1 id="SERVICES">my services</h1><!--services grid mad using columns-->
             <div class="row1">
                 <div class="column">
-                    <i class="fa-solid fa-photo-film fa-2xl"></i>
+                    <i class="fa-solid fa-photo-film fa-2xl"></i><!--Font awsom icon-->
                     <h3>photography</h3>
-                    <p>I can take photos of anytype for you.</p>
+                    <p>For you, I can snap pictures of any kind.</p>
                 </div>
                 <div class="column">
                     <i class="fa-solid fa-video fa-2xl"></i>
                     <h3>Videomaking</h3>
-                    <p>I can make and edit a video for you.</p>
+                    <p>For you, I can create and edit a video.</p>
                 </div>
                 <div class="column">
                     <i class="fa-solid fa-pen-to-square fa-2xl"></i>
                     <h3>Photoshop</h3>
-                    <P>I can Photoshop a picture for you.</P>
+                    <P>For you, I can Photoshop a photo.</P>
                 </div>
             </div>
             <div class="row2">
                 <div class="column">
                     <i class="fa-solid fa-window-restore fa-2xl"></i>
                     <h3>Web devepopment</h3>
-                    <P>I can make a small website for you.</P>
+                    <P>I can make a website of several pages for you of any kind.</P>
                 </div>
                 <div class="column">
                     <i class="fa-solid fa-gamepad fa-2xl"></i>
                     <h3>game development</h3>
-                    <P>I can make a small clicker or pixel game for you.</P>
+                    <P>For you, I can create a quick clicker or pixel game.</P>
                 </div>
                 <div class="column">
                     <i class="fa-solid fa-signature fa-2xl"></i>
                     <h3>copy writing</h3>
-                    <p>i can write articles and small blog posts for you.</p>
+                    <p>I can write articles and small blog posts for you.</p>
                 </div>
             </div>
-            <h3>my works</h3>
+            <h1 id="WORK">my works</h1><!--Smothe design created using CSS transform feature-->
             <div class="work"> 
                 <div class="container">
                     <div class="box">
                       <div class="imgBx">
                         <img src="1.jpg">
                       </div>
-                      <div class="content">
-                        <div>
+                      <div class="content"><!--working links for proof of work-->
+                        <div><a href="https://docs.google.com/presentation/d/1PZOQJoW2KSuMczwO90Po-AOa3S3EXitE/edit?usp=share_link&ouid=107390930669373997206&rtpof=true&sd=true" target="_blank">
                           <h2>Progrming</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                          </p>
+                          <p>I've been a programmer for a very long time and am familiar with the advanced Python programming language.
+                          </p></a>
                         </div>
                       </div>
                     </div>
@@ -158,10 +159,10 @@
                         <img src="1.jpg">
                       </div>
                       <div class="content">
-                        <div>
+                        <div><a href="https://docs.google.com/presentation/d/16ws-JTU5Ogv7xARnyJtB7f-OsdADxUcA/edit?usp=share_link&ouid=107390930669373997206&rtpof=true&sd=true" target="_blank">
                           <h2>Web Development</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                          </p>
+                          <p>I've been a programmer for a while and am familiar with advanced HTML, CSS, and javascript.
+                          </p></a>
                         </div>
                       </div>
                     </div>
@@ -170,10 +171,10 @@
                         <img src="1.jpg">
                       </div>
                       <div class="content">
-                        <div>
-                          <h2>Designkng</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                          </p>
+                        <div><a href="https://sway.office.com/HNzkldJTK35WLe7T?ref=Link" target="_blank">
+                          <h2>Designing</h2>
+                          <p>I've been designing for a while and consider myself to be fairly skilled.
+                          </p></a>
                         </div>
                       </div>
                     </div>
@@ -182,19 +183,19 @@
                         <img src="1.jpg">
                       </div>
                       <div class="content">
-                        <div>
+                        <div><a href="https://www.canva.com/design/DAFi4QS4wRY/ffWJGBplm6JnpasgSVOQGw/edit?utm_content=DAFi4QS4wRY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
                           <h2>Copy Writting</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
-                          </p>
+                          <p>I once wrote news pieces for my college newspaper, and more recently, I wrote a journal about Ideation techniques.
+                          </p></a>
                         </div>
                       </div>
                     </div>
                   </div>
             </div>
 
-            <div class="contact">
+            <div class="contact"><!--contact tab with form-->
                 <div style="text-align:center">
-                  <h2>Contact Me</h2>
+                  <h1 style="margin-left: -51px;" id="CONTACTS">Contact Me</h1>
                   <p>Swing by for a cup of coffee, or leave me a message:</p>
                 </div>
                 <div class="row3">
@@ -213,7 +214,7 @@
                         <option value="Pakistan">Pakistan</option>
                         <option value="United Kingdom">UK</option>
                       </select>
-                      <label for="subject">Subject</label>
+                      <label for="subject">Subject</label><!--cool button design made in css-->
                       <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
                       <button class="button-86">
                         submit
@@ -222,7 +223,7 @@
                   </div>
                 </div>
               </div>
-              <h2>My socials</h2>
+              <h1 id="Socials">My socials</h1><!--Design msde using check bax and transform feature-->
             <div class="social">
               <input type="checkbox" id="cb1" class="sinput"/>
                 <label for="cb1" class="slable"><i class="fa fa-facebook"></i>
@@ -245,6 +246,6 @@
     <footer>
 
     </footer>
-    <script src="website.js"></script>
+    <script src="website.js"></script><!--java script file-->
 </body>
 </html>
