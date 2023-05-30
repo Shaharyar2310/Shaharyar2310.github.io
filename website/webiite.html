@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/5ad384dc18.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -24,12 +25,20 @@
     </header>
     <main>
         <div class="home">
-            <h1>Hi,
+          <div class="square github">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="content">
+              <h1>Hi,
                 <br>
-                I'am <span class="name">Shaharyar</span>
+                I'am Shaharyar</span>
                 <br>
                 creative Computing student</h1>
-        </div>
+            </div>
+        </div> 
+
+      </div>
         <div class="about">
             <div class="textaboutme">
                 <h3>About me</h3>
@@ -39,41 +48,36 @@
                     University Numerous programming languages, including Python, HTML, CSS, and JavaScript, have been introduced to me and I have mastered them.
                     I have also gained knowledge of a variety of other skills, including photography, videography, game development, and the creation of real life interactive games.
                 </p>
-                <div class="tab">
-                    <button class="button-86 activebutton" onclick="opentab(event, 'Skills')"><i class="fa-solid fa-gear"></i>Skills</button>
-                    <button class="button-86" onclick="opentab(event, 'Experience')"><i class="fa-solid fa-briefcase"></i>Experience</button>
-                    <button class="button-86" onclick="opentab(event, 'Education')"><i class="fa-solid fa-book-open"></i>Education</button>
-                  </div>
-                  
-                  <!-- Tab content -->
-                  <div id="Skills" class="tabcontent activetab">
-                    <p>Communication<br>CSR.TSR</p>
+                <img src="1.jpg" class="center">
+                  <div class="wrapper">
+                    
+                    <div class="tabs">
+                      <div class="tab">
+                        <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
+                        <label for="tab-1" class="tab-label">Skills</label>
+                        <div class="tab-content">I am multi-talented. I've held CSR and TSR positions in the telemarketing industry. I also have business and management skills, particularly with Excel sheet management.
+                          In high school assemblies, I also created power point presentations and use Google Slides.As of my current experience at the University of Bath Spa, I also have experience in photography and videography.
+                        </div>
+                      </div>
+                      <div class="tab">
+                        <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
+                        <label for="tab-2" class="tab-label">Experience</label>
+                        <div class="tab-content">Since I worked at Ethasat as a CSR and TSR from 2020 to 2022, I have experience in the telecommunications industry. I also have excellent communication abilities.I have been an excel sheet manager for Choithrams since 2022.I have excellent copywriting skills because I have also written journals and news pieces for the college newspaper.</div>
+                      </div>
+                      <div class="tab">
+                        <input type="radio" name="css-tabs" id="tab-3" class="tab-switch">
+                        <label for="tab-3" class="tab-label">Education</label>
+                        <div class="tab-content">I have studied at a variety of institutions, including the al-Majed International School, where I received my primary education.I received my secondary education while attending Gems Welenton Academy.I traveled to the Pakistan Education Academy for my high school and college education.
+                          and I am pursuing my undergraduate degree or bachelor's degree at Bath Spa University.</div>
+                      </div>
+                    </div>
 
-                    <p>business management<br>Excel sheet management<br>Power Point and Google slides Presentation</p>
+                  </div>
 
-                    <P>Vidoegraphy<br>Video and collage Editing</P>
-
-                    <P>Phatography<br>nature Photos</P>
-    
-                    <P>Photoshop<br>Saturation And Desaturation<br>photo Enhancement<br>Backgroung Removal</P>
-                
-                  </div>
-                  
-                  <div id="Experience" class="tabcontent">
-                    <p>Communication<br>Call center customer servive at Ethasalat 2020-2022</p>
-                    <p>business and management<br>Exel sheet management at chouitram 2022-active</p>
-                  </div>
-                  
-                  <div id="Education" class="tabcontent">
-                    <p>Primary education<br>Al majed international school<br>Visit</p>
-                    <p>secondary education<br>Gems welenton<br></p>
-                    <p>Higher Education<br>Pakistan Educcation Academy<br>Visit</p>
-                    <P>University<br>Bath Spa University<br>Visit</P>
-                  </div>
             </div>
         </div>
-            <h4>Technical Skills</h4>
-    
+        <div class="contact">
+            <h4>Technical Skills</h4>   
             <p>Photography</p>
             <div class="w3-grey">
                 <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
@@ -98,6 +102,7 @@
             <div class="w3-grey">
                 <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
             </div>
+        </div>
             <h3>my services</h3>
             <div class="row1">
                 <div class="column">
@@ -166,7 +171,7 @@
                       </div>
                       <div class="content">
                         <div>
-                          <h2>Image Title</h2>
+                          <h2>Designkng</h2>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
                           </p>
                         </div>
@@ -178,7 +183,7 @@
                       </div>
                       <div class="content">
                         <div>
-                          <h2>Image Title</h2>
+                          <h2>Copy Writting</h2>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
                           </p>
                         </div>
@@ -217,7 +222,24 @@
                   </div>
                 </div>
               </div>
-            
+              <h2>My socials</h2>
+            <div class="social">
+              <input type="checkbox" id="cb1" class="sinput"/>
+                <label for="cb1" class="slable"><i class="fa fa-facebook"></i>
+                </label>
+              <input type="checkbox" id="cb2" class="sinput"/>
+                <label for="cb2" class="slable"><i class="fa fa-instagram"></i>
+                </label>
+              <input type="checkbox" id="cb3" class="sinput"/>
+                <label for="cb3" class="slable"><i class="fa fa-linkedin"></i>
+                </label>
+              <input type="checkbox" id="cb4" class="sinput"/>
+                <label for="cb4" class="slable"><i class="fa fa-youtube-play"></i>
+                </label>
+              <input type="checkbox" id="cb5" class="sinput"/>
+                <label for="cb5" class="slable"><i class="fa fa-whatsapp"></i>
+                </label>
+            </div>
         </div>
     </main>
     <footer>
