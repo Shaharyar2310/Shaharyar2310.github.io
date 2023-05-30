@@ -5,6 +5,7 @@ body{
     background-color: #333333;
     color: #fff;
     font-family: Verdana,sans-serif;
+    font-size: 18px;
 }
 /*margin alignment*/
 h1{
@@ -14,7 +15,7 @@ h1{
 main{
     background-color: #333333;;;
 
-    padding-left: 10px;
+    padding-left: 20px;
     padding-right: 10px;
     background-image: url(paul-volkmer-fX-qWsXl5x8-unsplash.jpg);
 }
